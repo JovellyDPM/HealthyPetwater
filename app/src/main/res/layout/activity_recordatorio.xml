@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    android:background="@drawable/background_healthypet"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".RecordatorioActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Healthy Pet"
+        android:textColor="@color/purple"
+        android:textSize="25dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/custom_border">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recordatorio"
+                android:textAlignment="center"
+                android:id="@+id/recordatorio_txt"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/purple"/>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="173dp"
+                android:layout_height="194dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/vasogato" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Toma awa"
+                android:textAlignment="center"
+                android:id="@+id/cant_txt"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/gray"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/on_button"
+                android:text="Encendido"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/purple"
+                app:cornerRadius ="20dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/off_button"
+                android:text="Apagado"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/gray"
+                app:cornerRadius ="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/back_btn"
+                android:text="Atrás"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/pink"
+                app:cornerRadius ="20dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "574343198387",
+    "project_id": "healthypetwater",
+    "storage_bucket": "healthypetwater.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574343198387:android:d41e0b2b37a505bbc062c6",
+        "android_client_info": {
+          "package_name": "jovelly.healthypetwater"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClFObTFy_8xJVK6PPnoo1jYKtzwX_tN8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
